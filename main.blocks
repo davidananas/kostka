@@ -1,0 +1,37 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable id="{rUIs:#`A?dJY!%{,!C9">dicevalue</variable><variable id="aO!;z:^KY=H}$9h`^@:x">seznam</variable><variable id=":x7wh*;OV}[s3,RX83_k">list</variable><variable id="aHTmBO}dE4pmaV@4EAnT">myImage</variable></variables><block type="pxt-on-start" id="5i[V5~cK@gkv)1+R[_@p" x="20" y="20"><statement name="HANDLER"><block type="function_call" id="VWGF+,Ebxik*DAtvHt%B"><mutation name="setdicepatterns" functionid="Xh:OY^*2b7x)iaQ^69=*"></mutation><next><block type="function_call" id="|1b9@$@ooii,cl[UahGv"><mutation name="rolldice" functionid="^Qj6,_~c9q[CS|Z|UBQw"></mutation></block></next></block></statement></block><block type="device_gesture_event" id="s`Y]u;TNMZ5qyUi]r52|" x="272" y="20"><field name="NAME">Gesture.Shake</field><statement name="HANDLER"><block type="function_call" id="Q/oZ=~Y6%Mvcn1aXhs_f"><mutation name="rolldice" functionid="^Qj6,_~c9q[CS|Z|UBQw"></mutation></block></statement></block><block type="function_definition" id="P{T@_R+@*}u8MP=4oxX@" x="477" y="20"><mutation name="rolldice" functionid="^Qj6,_~c9q[CS|Z|UBQw"></mutation><field name="function_name">rolldice</field><statement name="STACK"><block type="device_show_image_offset" id="7I~%GTxC}TaU^9W4I-~M"><mutation xmlns="http://www.w3.org/1999/xhtml" _expanded="0" _input_init="true"></mutation><value name="sprite"><block type="lists_index_get" id="Qb}-T:a:idL|/_Q22$wn"><value name="LIST"><block type="variables_get" id=":?6jfwP=Y9!tp|SmT1Z#"><field name="VAR" id=":x7wh*;OV}[s3,RX83_k">list</field></block></value><value name="INDEX"><shadow type="math_number" disabled="true"><field name="NUM">0</field></shadow><block type="device_random" id="2FRe}t@Y`xE0jL$75#R,"><value name="min"><shadow type="math_number" id="sv@#W_c[?y%9JQ9VZRQJ"><field name="NUM">0</field></shadow></value><value name="limit"><shadow type="math_number" id="hM|xUQ7I6d!bpp=M57x~"><field name="NUM">5</field></shadow></value></block></value></block></value><value name="offset"><shadow type="math_number" id="%PpaMPS6fq7%_:i(J`R6"><field name="NUM">0</field></shadow></value><value name="interval"><shadow type="math_number" id="BR.0zOd26y(#JwW%Cu[)"><field name="NUM">400</field></shadow></value></block></statement></block><block type="function_definition" id="^NCYn|3s3{wc(%reHDkq" x="1261" y="20"><mutation name="setdicepatterns" functionid="Xh:OY^*2b7x)iaQ^69=*"></mutation><field name="function_name">setdicepatterns</field><statement name="STACK"><block type="variables_set" id="`Q7ukeG6b0CKEp*HhG7b"><field name="VAR" id=":x7wh*;OV}[s3,RX83_k">list</field><value name="VALUE"><block type="lists_create_with" id="ak.|gcH5Ee(MbM~IbxW%" inline="false"><mutation items="6" horizontalafter="3"></mutation><value name="ADD0"><shadow type="math_number" disabled="true"><field name="NUM">0</field></shadow><block type="device_build_image" id="f^|XFt$=7cbcx{JJEN98"><field name="LEDS">`
+        . . . . . 
+        . . . . . 
+        . . # . . 
+        . . . . . 
+        . . . . .
+        `</field></block></value><value name="ADD1"><shadow type="math_number" disabled="true"><field name="NUM">1</field></shadow><block type="device_build_image" id="H8bg`5-omGi6;P:(fe#7"><field name="LEDS">`
+        . . . . # 
+        . . . . . 
+        . . . . . 
+        . . . . . 
+        # . . . .
+        `</field></block></value><value name="ADD2"><shadow type="math_number" disabled="true"><field name="NUM">0</field></shadow><block type="device_build_image" id="{,+5VF1Sy$Dh*,FJzumD"><field name="LEDS">`
+        . . . . # 
+        . . . . . 
+        . . # . . 
+        . . . . . 
+        # . . . .
+        `</field></block></value><value name="ADD3"><shadow type="math_number" disabled="true"><field name="NUM">0</field></shadow><block type="device_build_image" id="wi%Uj:SWXkNokdVp_aP%"><field name="LEDS">`
+        # . . . # 
+        . . . . . 
+        . . . . . 
+        . . . . . 
+        # . . . #
+        `</field></block></value><value name="ADD4"><shadow type="math_number" disabled="true"><field name="NUM">0</field></shadow><block type="device_build_image" id="!U6v{XJ9Jrch?5TPv)S="><field name="LEDS">`
+        # . . . # 
+        . . . . . 
+        . . # . . 
+        . . . . . 
+        # . . . #
+        `</field></block></value><value name="ADD5"><shadow type="math_number" disabled="true"><field name="NUM">0</field></shadow><block type="device_build_image" id="XB}HU!QFBZLu7hb~if1P"><field name="LEDS">`
+        # . . . # 
+        . . . . . 
+        # . . . # 
+        . . . . . 
+        # . . . #
+        `</field></block></value></block></value></block></statement></block></xml>
